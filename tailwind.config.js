@@ -12,5 +12,9 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  // quick link to components folder
+  paths: {
+    components: "./components",
+  },
 };
 
