@@ -1,7 +1,0 @@
-{
-	"marquee.widgets.npm-stats.packageNames": ["bua_hack"],
-	"typescript.tsdk": "node_modules/typescript/lib",
-	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"WillLuke.nextjs.addTypesOnSave": true,
-	"WillLuke.nextjs.hasPrompted": true
-}
