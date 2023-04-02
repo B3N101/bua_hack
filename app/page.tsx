@@ -5,7 +5,7 @@ import {
 	RegisterButton,
 	LogoutButton,
 	ProfileButton,
-} from "@components/authButtons";
+} from "@/components/authButtons";
 
 import { authOptions } from "./api/auth/[...nextauth]/route";
 
