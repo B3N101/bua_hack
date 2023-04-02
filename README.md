@@ -1,27 +1,49 @@
-# Next.js + Tailwind CSS Example
+This is an app built to showcase the capabilities of [Next.js 13](https://beta.nextjs.org/docs).
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Live demo is up at [nextjs13.app](https://www.nextjs13.app)
 
-## Deploy your own
+> **Warning**
+> This app is a work in progress. Site may be unstable.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![Home and Feed pages](https://user-images.githubusercontent.com/26501999/223235925-b2b6c599-cc43-436c-9cd1-f05cfcc454f2.jpg)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Features
 
-## How to use
+- Using new **Next.js 13 Beta**
+- New `/app` dir,
+- Routing, Layouts, Nested Layouts and Layout Groups
+- Data Fetching, Caching and Mutation
+- Uses client and server components from **React 18**
+- API Routes
+- Live social media feed with likes, comments, and profanity filter
+- OAuth 2.0 Authentication through Google, GitHub, and Discord using **NextAuth.js**
+- ORM using **Prisma**
+- PostgreSQL Database on **Railway**
+- UI Components built using **NextUI**
+- Dark mode using **next-themes**
+- Payments using **Stripe**
+- Written in **TypeScript**
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Run locally
+1. Install dependencies
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+npm install
 ```
+2. Copy `.env.example` to `.env.local` and update variables:
 
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+cp .env.example .env.local
 ```
+
+3. Run the development server:
 
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+npm run dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## License
+
+Licensed under the [GNU Affero General Public License v3.0](https://github.com/yaseenmustapha/nextjs13-app/blob/main/LICENSE).
